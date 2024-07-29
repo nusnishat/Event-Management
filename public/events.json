@@ -1,0 +1,103 @@
+[
+    {
+      "id": 1,
+      "name": "Elegant Wedding Ceremony",
+      "description": "A beautiful wedding ceremony with a grand reception.",
+      "date": "2021-06-15",
+      "location": "Crystal Ballroom, New York",
+      "category": "Wedding",
+      "attendees": 200,
+      "image": "https://demo.ovatheme.com/dvents/wp-content/uploads/2017/06/262x390_3.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Corporate Conference",
+      "description": "An annual conference for corporate leaders and professionals.",
+      "date": "2022-07-10",
+      "location": "Business Convention Center, Chicago",
+      "category": "Conference",
+      "attendees": 500,
+      "image": "https://demo.ovatheme.com/dvents/wp-content/uploads/2017/06/262x390_3.jpg"
+    },
+    {
+      "id": 3,
+      "name": "50th Birthday Bash",
+      "description": "A grand celebration for a 50th birthday milestone.",
+      "date": "2020-08-20",
+      "location": "Grand Plaza, Los Angeles",
+      "category": "Birthday Party",
+      "attendees": 100,
+      "image": "https://demo.ovatheme.com/dvents/wp-content/uploads/2017/06/262x390_3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Charity Gala",
+      "description": "A glamorous gala event to raise funds for a charitable cause.",
+      "date": "2023-09-05",
+      "location": "Luxury Hotel, Miami",
+      "category": "Charity",
+      "attendees": 300,
+      "image": "https://demo.ovatheme.com/dvents/wp-content/uploads/2017/06/262x390_3.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Music Festival",
+      "description": "A lively music festival featuring various artists and bands.",
+      "date": "2019-10-15",
+      "location": "Open Grounds, Austin",
+      "category": "Festival",
+      "attendees": 1000,
+      "image": "https://demo.ovatheme.com/dvents/wp-content/uploads/2017/06/262x390_3.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Art Exhibition",
+      "description": "An exhibition showcasing contemporary art from local artists.",
+      "date": "2024-11-20",
+      "location": "Art Gallery, San Francisco",
+      "category": "Exhibition",
+      "attendees": 200,
+      "image": "https://demo.ovatheme.com/dvents/wp-content/uploads/2017/06/262x390_3.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Cooking Workshop",
+      "description": "A hands-on workshop for cooking enthusiasts.",
+      "date": "2023-12-10",
+      "location": "Culinary School, Seattle",
+      "category": "Workshop",
+      "attendees": 50,
+      "image": "https://demo.ovatheme.com/dvents/wp-content/uploads/2017/06/262x390_3.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Film Screening",
+      "description": "A special screening of an award-winning film.",
+      "date": "2022-01-15",
+      "location": "Cinema Hall, Los Angeles",
+      "category": "Film Screening",
+      "attendees": 150,
+      "image": "https://demo.ovatheme.com/dvents/wp-content/uploads/2017/06/262x390_3.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Outdoor Adventure",
+      "description": "An exciting outdoor adventure with hiking and camping.",
+      "date": "2024-02-25",
+      "location": "Mountain Trails, Denver",
+      "category": "Adventure",
+      "attendees": 80,
+      "image": "https://demo.ovatheme.com/dvents/wp-content/uploads/2017/06/262x390_3.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Book Launch Party",
+      "description": "A party to celebrate the launch of a new book.",
+      "date": "2020-03-30",
+      "location": "Bookstore, Boston",
+      "category": "Book Launch",
+      "attendees": 100,
+      "image": "https://demo.ovatheme.com/dvents/wp-content/uploads/2017/06/262x390_3.jpg"
+    }
+  ]
+  

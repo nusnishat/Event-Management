@@ -7,10 +7,11 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Home from './Pages/Home.jsx';
-import Events from './Pages/Events.jsx';
+
 import Services from './Pages/Services.jsx';
 import AboutUs from './Pages/AboutUs.jsx';
 import Login from './Pages/Login.jsx';
+import Events from './Pages/Events/Events.jsx';
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,7 @@ const router = createBrowserRouter([
       {
         path: "events",
         element: <Events></Events>,
+        loader:()=>fetch('/events.json')
       },
       {
         path: "services",

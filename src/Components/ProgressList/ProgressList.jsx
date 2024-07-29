@@ -12,7 +12,7 @@ const ProgressList = () => {
                     <div>
                         <p className='font-bold text-4xl'>80</p>
                         <p className='text-2xl font-semibold'>Loyal Customers</p>
-                    </div>
+                    </div>git
                     <div>
                         <p className='font-bold text-4xl'>540</p>
                         <p className='text-2xl font-semibold'>Comments</p>
