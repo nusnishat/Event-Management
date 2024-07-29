@@ -3,7 +3,7 @@
     background-image: url('/src/images/Home/progress-banner.jpg');
     background-position: center;
     background-size: cover;
-    height: 30vh; /* Adjust the height as needed */
+    height: 40vh; /* Adjust the height as needed */
 }
 
 .progress::before {

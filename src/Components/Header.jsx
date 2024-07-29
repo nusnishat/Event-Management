@@ -15,7 +15,7 @@ const Header = () => {
                     <BsStopwatch className="inline text-zinc-500 text-xl"  /> <span>Mon – Fri 9.00 am – 6.00 pm</span>
                 </div>
                 <div className="flex md:justify-end ">
-                   <FaFacebook className="inline text-zinc-500 me-4 text-xl" /> <FaLinkedin className="inline text-zinc-500 me-4 text-xl" /><MdEmail className="inline text-zinc-500 me-4 text-xl"  />
+                   <FaFacebook className="inline text-zinc-500 me-4 text-xl" /> <FaLinkedin className="inline text-zinc-500 me-4 text-xl" /><MdEmail className="inline text-zinc-500 text-xl"  />
                 </div>
             </section>
             <section className="">
