@@ -1,7 +1,7 @@
 
 const EventsGallery = () => {
     return (
-        <div className='py-16  mx-auto text-center '>
+        <div className='pt-16 pb-32  mx-auto text-center '>
             <img className='mx-auto mb-6' src="/src/images/Home/ui-decor-1.png" alt="" />
             <h1 className='text-4xl mb-6 font-semibold'><span className='text-cyan-500'>DEVENTS</span> Gallery</h1>
             <p className='text-xl mb-24 max-w-4xl mx-auto'>We make your events smart & impactful by personadivsed event management services.</p>

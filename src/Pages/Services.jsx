@@ -1,5 +1,5 @@
-// src/pages/Services.js
 import React from 'react';
+import 'daisyui/dist/full.css';
 
 const Services = () => {
     const eventDetails = {
@@ -57,21 +57,26 @@ const Services = () => {
                     "Custom cake and desserts",
                     "Party favors"
                 ]
-            }
-        ]
+            },
+        ],
+        "image": "https://i.postimg.cc/C1QnCzGV/concert.jpg"
     };
 
     return (
         <div className="container mx-auto px-4 py-8">
+            <img src="" alt="" />
             <h1 className="text-4xl font-bold mb-6 text-center text-blue-700">{eventDetails.title}</h1>
+            
             <section className="mb-8">
                 <h2 className="text-3xl font-semibold mb-4 text-gray-800">Pricing</h2>
                 <p className="text-xl text-gray-600">{eventDetails.pricing}</p>
             </section>
+            
             <section className="mb-8">
                 <h2 className="text-3xl font-semibold mb-4 text-gray-800">Description</h2>
                 <p className="text-lg text-gray-700">{eventDetails.description}</p>
             </section>
+            
             <section className="mb-8">
                 <h2 className="text-3xl font-semibold mb-4 text-gray-800">What We Do</h2>
                 <ul className="list-disc pl-5 space-y-2 text-lg text-gray-700">
@@ -80,6 +85,7 @@ const Services = () => {
                     ))}
                 </ul>
             </section>
+            
             <section className="mb-8">
                 <h2 className="text-3xl font-semibold mb-4 text-gray-800">How to Book</h2>
                 <p className="text-lg text-gray-700 mb-4">{eventDetails.howToBook}</p>
@@ -89,22 +95,26 @@ const Services = () => {
                     ))}
                 </ol>
             </section>
+            
             <section className="mb-8">
                 <h2 className="text-3xl font-semibold mb-4 text-gray-800">Packages</h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                     {eventDetails.packages.map((pkg, index) => (
-                        <div key={index} className="bg-white shadow-lg rounded-lg p-6 border border-gray-200">
-                            <h3 className="text-2xl font-bold mb-2 text-blue-600">{pkg.name}</h3>
-                            <p className="text-xl font-semibold mb-4 text-gray-800">{pkg.price}</p>
-                            <ul className="list-disc pl-5 space-y-2 text-lg text-gray-700">
-                                {pkg.features.map((feature, idx) => (
-                                    <li key={idx}>{feature}</li>
-                                ))}
-                            </ul>
+                        <div key={index} className={` ${index!=1? 'bg-zinc-100':'bg-base-100' }  shadow-lg  border border-gray-200`}>
+                            <div className="card-body">
+                                <h3 className="text-2xl font-bold mb-2 text-blue-600">{pkg.name}</h3>
+                                <p className="text-xl font-semibold mb-4 text-gray-800">{pkg.price}</p>
+                                <ul className="list-disc pl-5 space-y-2 text-lg text-gray-700">
+                                    {pkg.features.map((feature, idx) => (
+                                        <li key={idx}>{feature}</li>
+                                    ))}
+                                </ul>
+                            </div>
                         </div>
                     ))}
                 </div>
             </section>
+            
             <section>
                 <h2 className="text-3xl font-semibold mb-4 text-gray-800">Additional Information</h2>
                 <p className="text-lg text-gray-700">{eventDetails.additionalInfo}</p>
@@ -113,4 +123,4 @@ const Services = () => {
     );
 };
 
-export default Services
+export default Services;

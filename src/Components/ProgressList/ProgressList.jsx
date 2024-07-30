@@ -2,7 +2,7 @@ import './ProgressList.css'
 
 const ProgressList = () => {
     return (
-        <div className='progress  rounded-none mx-auto text-center px-8 md:px-24'>
+        <div className='progress-list rounded-none mx-auto text-center px-8 md:px-24'>
             <div className='pt-28 md:pt-36 lg:pt-24 '>
                 <div className='grid  grid-cols-2 gap-4 md:grid-cols-4  text-white'>
                     <div>

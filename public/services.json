@@ -1,0 +1,236 @@
+[
+    {   "id":1,
+        "title": "Birthday Party",
+        "pricing": "$500 - $2000",
+       "description": "Celebrate your special day with a memorable birthday party! We offer a range of packages to fit your needs, from intimate gatherings to grand celebrations. Enjoy a customized experience with personalized decorations, entertainment options, and catering services. Whether you're planning a small family gathering or a large celebration with friends, our team will ensure every detail is perfect. Choose from a variety of themes and activities to make your birthday unforgettable. From delicious cakes and treats to engaging activities and games, we’ve got everything covered to make your day truly special.",
+        "whatWeDo": [
+            "Venue decoration",
+            "Catering services",
+            "Entertainment and music",
+            "Photography and videography",
+            "Custom cake and desserts",
+            "Party favors and games"
+        ],
+        "howToBook": "Booking your birthday party with us is simple! Follow these steps to ensure a smooth and enjoyable process:",
+        "bookingSteps": [
+            "Contact us via phone or email to discuss your event details.",
+            "Choose your preferred package and customize it to fit your needs.",
+            "Sign the contract and make the initial deposit.",
+            "Our team will work with you on the final arrangements.",
+            "Enjoy your birthday party!"
+        ],
+        "additionalInfo": "Our team will work with you to customize every detail of your birthday party to ensure it’s a day you and your guests will never forget. Contact us for a personalized quote.",
+        "packages": [
+            {
+                "name": "Basic Package",
+                "price": "$500",
+                "features": [
+                    "Up to 50 guests",
+                    "Basic venue decoration",
+                    "Buffet-style catering",
+                    "Standard entertainment"
+                ]
+            },
+            {
+                "name": "Standard Package",
+                "price": "$1000",
+                "features": [
+                    "Up to 100 guests",
+                    "Themed venue decoration",
+                    "Full-service catering",
+                    "Live music",
+                    "Photo booth"
+                ]
+            },
+            {
+                "name": "Premium Package",
+                "price": "$2000",
+                "features": [
+                    "Up to 200 guests",
+                    "Luxury venue decoration",
+                    "Gourmet catering",
+                    "Live band or DJ",
+                    "Professional photography",
+                    "Custom cake and desserts",
+                    "Party favors"
+                ]
+            }
+        ],
+        "image": "https://i.postimg.cc/ZqjdRf0n/birthday.jpg"
+    },
+    {
+        "id":2,
+        "title": "Wedding",
+        "pricing": "$2000 - $5000",
+        "description": "Make your wedding day unforgettable with our comprehensive wedding packages. We offer elegant setups and top-notch services to ensure your special day is perfect. Our packages include beautiful floral arrangements, sophisticated decor, and professional photography to capture every moment. Enjoy a seamless experience with personalized planning assistance, tailored to your vision and preferences. From intimate ceremonies to grand receptions, our team is dedicated to creating a magical atmosphere for you and your guests. Indulge in gourmet catering, exquisite cakes, and entertainment options that will make your celebration truly exceptional. Let us help you craft a memorable event that reflects your unique love story.",
+        "whatWeDo": [
+            "Wedding venue decoration",
+            "Catering and bar services",
+            "Professional photography and videography",
+            "Live music or DJ",
+            "Custom wedding cake",
+            "Floral arrangements"
+        ],
+        "howToBook": "Booking your wedding with us is a straightforward process:",
+        "bookingSteps": [
+            "Contact us to schedule a consultation.",
+            "Choose from our wedding packages or create a custom package.",
+            "Finalize the details and sign the contract.",
+            "Pay the deposit to secure your date.",
+            "Enjoy your dream wedding day!"
+        ],
+        "additionalInfo": "We offer personalized wedding planning services to bring your vision to life. Contact us to start planning your perfect day.",
+        "packages": [
+            {
+                "name": "Elegant Package",
+                "price": "$2000",
+                "features": [
+                    "Up to 100 guests",
+                    "Basic wedding decor",
+                    "Buffet catering",
+                    "Standard photography"
+                ]
+            },
+            {
+                "name": "Deluxe Package",
+                "price": "$3500",
+                "features": [
+                    "Up to 150 guests",
+                    "Themed wedding decor",
+                    "Full-service catering",
+                    "Live music or DJ",
+                    "Professional photography and videography"
+                ]
+            },
+            {
+                "name": "Luxury Package",
+                "price": "$5000",
+                "features": [
+                    "Up to 250 guests",
+                    "Luxury decor",
+                    "Gourmet catering",
+                    "Live band",
+                    "Full-service photography and videography",
+                    "Custom cake and floral arrangements"
+                ]
+            }
+        ],
+        "image": "https://demo.ovatheme.com/dvents/wp-content/uploads/2017/06/262x390_3.jpg"
+    },
+    {
+        "id":3,
+        "title": "Conference",
+        "pricing": "$1000 - $5000",
+       "description": "Host a successful conference with our professional event management services. We provide all the necessary support to make your conference a success, from planning to execution. Our services include venue selection, audiovisual setup, and on-site coordination to ensure a smooth and productive event. Benefit from our expertise in organizing keynote speakers, breakout sessions, and networking opportunities tailored to your industry. We also offer comprehensive attendee management, including registration, accommodation arrangements, and catering services. Whether it's a small workshop or a large-scale convention, our team will handle every detail, allowing you to focus on delivering valuable content and engaging with your audience. Elevate your conference experience with our customized solutions and exceptional service.",
+        "whatWeDo": [
+            "Venue setup and AV equipment",
+            "Catering services",
+            "Event registration management",
+            "Professional event coordination",
+            "Marketing and promotion",
+            "Post-event support"
+        ],
+        "howToBook": "To book your conference with us:",
+        "bookingSteps": [
+            "Reach out to discuss your event requirements.",
+            "Choose a package or customize your own.",
+            "Sign the agreement and pay the deposit.",
+            "Coordinate with our team for event planning.",
+            "Host your successful conference!"
+        ],
+        "additionalInfo": "We ensure every detail is managed professionally for a seamless conference experience. Contact us to get started.",
+        "packages": [
+            {
+                "name": "Basic Conference",
+                "price": "$1000",
+                "features": [
+                    "Up to 100 attendees",
+                    "Venue setup",
+                    "Basic AV equipment",
+                    "Simple catering"
+                ]
+            },
+            {
+                "name": "Standard Conference",
+                "price": "$2500",
+                "features": [
+                    "Up to 250 attendees",
+                    "Advanced AV setup",
+                    "Catering and refreshments",
+                    "Event registration management",
+                    "Basic marketing"
+                ]
+            },
+            {
+                "name": "Premium Conference",
+                "price": "$5000",
+                "features": [
+                    "Up to 500 attendees",
+                    "High-end AV equipment",
+                    "Full catering service",
+                    "Comprehensive event management",
+                    "Extensive marketing and promotion"
+                ]
+            }
+        ],
+        "image": "https://i.postimg.cc/zBBRRnRj/conference.jpg"
+    },
+    {
+        "id":4,
+        "title": "Concert",
+        "pricing": "$1000 - $8000",
+       "description": "Host an unforgettable concert experience with our expert event management services. We handle all aspects to ensure a successful and memorable event, from initial planning to the final encore. Our services include venue selection, stage setup, sound and lighting engineering, and artist coordination to deliver a seamless performance. We manage ticketing and promotion to maximize attendance and ensure a smooth entry process for your audience. Enjoy customized solutions tailored to your concert’s needs, including security arrangements, backstage management, and VIP services. Our team is dedicated to creating a vibrant and engaging atmosphere that enhances the overall experience for both performers and attendees. Let us transform your concert vision into a spectacular reality.",
+        "whatWeDo": [
+            "Stage setup and sound engineering",
+            "Lighting and special effects",
+            "Artist coordination and management",
+            "Ticketing and promotion",
+            "Security and crowd management",
+            "On-site event support"
+        ],
+        "howToBook": "Booking your concert with us is easy:",
+        "bookingSteps": [
+            "Contact us to discuss your concert needs.",
+            "Select a package or create a custom plan.",
+            "Sign the agreement and make a deposit.",
+            "Coordinate with our team for detailed planning.",
+            "Enjoy a successful concert event!"
+        ],
+        "additionalInfo": "We provide comprehensive services to ensure your concert is a hit. Contact us for more details and a personalized quote.",
+        "packages": [
+            {
+                "name": "Basic Concert",
+                "price": "$1000",
+                "features": [
+                    "Up to 500 attendees",
+                    "Basic stage setup",
+                    "Standard sound system",
+                    "Simple lighting"
+                ]
+            },
+            {
+                "name": "Standard Concert",
+                "price": "$4000",
+                "features": [
+                    "Up to 1000 attendees",
+                    "Advanced stage setup",
+                    "Professional sound system",
+                    "Enhanced lighting and effects",
+                    "Artist management"
+                ]
+            },
+            {
+                "name": "Premium Concert",
+                "price": "$8000",
+                "features": [
+                    "Up to 3000 attendees",
+                    "High-end stage and sound setup",
+                    "Custom lighting and special effects",
+                    "Full artist coordination",
+                    "Comprehensive event support"
+                ]
+            }
+        ],
+        "image": "https://i.postimg.cc/C1QnCzGV/concert.jpg"
+    }
+]

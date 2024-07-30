@@ -41,8 +41,8 @@ const SercicesEvent = () => {
                 <div className="card-body">
                   <h2 className="card-title">{service.name}</h2>
                   <div className="card-actions">
-                    <Link>
-                        <button className="font-semibold text-cyan-500 btn-link">Show Details</button>
+                    <Link to={`/service/${service.id}`}>
+                        <button className="font-medium text-cyan-500">Show Details</button>
                     </Link>
                   </div>
                 </div>

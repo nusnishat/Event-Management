@@ -7,11 +7,12 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Home from './Pages/Home.jsx';
-
 import Services from './Pages/Services.jsx';
 import AboutUs from './Pages/AboutUs.jsx';
 import Login from './Pages/Login.jsx';
 import Events from './Pages/Events/Events.jsx';
+import Service from './Pages/Service/Service.jsx';
+
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,11 @@ const router = createBrowserRouter([
       {
         path: "services",
         element: <Services></Services>,
+      },
+      {
+        path: "service/:id",
+        element: <Service></Service>,
+        loader:()=>fetch('/services.json')
       },
       {
         path: "aboutUs",
