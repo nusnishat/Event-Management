@@ -5,7 +5,7 @@ function App() {
 
 
   return (
-    <div className='font-roboto'>
+    <div className='font-roboto leading-relaxed'>
       <Header></Header>
       <Outlet></Outlet>
       <Footer></Footer>

@@ -20,7 +20,7 @@ const Service = () => {
                 </div>
             </section>
             {/* service details */}
-            <section className='px-8'>
+            <section className='px-8 md:px-24'>
                 <div className="md:grid grid-cols-3 gap-8 mx-auto px-4 py-8">
                     <div className='col-span-2'>
                         <img className='w-full' src={currentService.image} alt="" />

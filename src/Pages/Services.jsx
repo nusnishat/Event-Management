@@ -1,126 +1,190 @@
 import React from 'react';
-import 'daisyui/dist/full.css';
 
-const Services = () => {
-    const eventDetails = {
-        title: "Birthday Party",
-        pricing: "$500 - $2000",
-        description: "Celebrate your special day with a memorable birthday party! We offer a range of packages to fit your needs, from intimate gatherings to grand celebrations.",
-        whatWeDo: [
-            "Venue decoration",
-            "Catering services",
-            "Entertainment and music",
-            "Photography and videography",
-            "Custom cake and desserts",
-            "Party favors and games"
-        ],
-        howToBook: "Booking your birthday party with us is simple! Follow these steps to ensure a smooth and enjoyable process:",
-        bookingSteps: [
-            "Contact us via phone or email to discuss your event details.",
-            "Choose your preferred package and customize it to fit your needs.",
-            "Sign the contract and make the initial deposit.",
-            "Our team will work with you on the final arrangements.",
-            "Enjoy your birthday party!"
-        ],
-        additionalInfo: "Our team will work with you to customize every detail of your birthday party to ensure it’s a day you and your guests will never forget. Contact us for a personalized quote.",
-        packages: [
-            {
-                name: "Basic Package",
-                price: "$500",
-                features: [
-                    "Up to 50 guests",
-                    "Basic venue decoration",
-                    "Buffet-style catering",
-                    "Standard entertainment"
-                ]
-            },
-            {
-                name: "Standard Package",
-                price: "$1000",
-                features: [
-                    "Up to 100 guests",
-                    "Themed venue decoration",
-                    "Full-service catering",
-                    "Live music",
-                    "Photo booth"
-                ]
-            },
-            {
-                name: "Premium Package",
-                price: "$2000",
-                features: [
-                    "Up to 200 guests",
-                    "Luxury venue decoration",
-                    "Gourmet catering",
-                    "Live band or DJ",
-                    "Professional photography",
-                    "Custom cake and desserts",
-                    "Party favors"
-                ]
-            },
-        ],
-        "image": "https://i.postimg.cc/C1QnCzGV/concert.jpg"
-    };
+const teamMembers = [
+  {
+    name: 'Ava Taylor',
+    position: 'Supervisor',
+    image: '/path/to/ava-taylor.jpg', // Replace with actual image URLs
+    description: 'Ava ensures every event runs smoothly and efficiently, bringing her extensive experience to the team.',
+    social: {
+      twitter: '#',
+      facebook: '#',
+      google: '#',
+      instagram: '#',
+    }
+  },
+  {
+    name: 'Kethy Hilton',
+    position: 'Events Manager',
+    image: '/path/to/kethy-hilton.jpg', // Replace with actual image URLs
+    description: 'Kethy coordinates all aspects of event planning and execution, ensuring every detail is perfect.',
+    social: {
+      twitter: '#',
+      facebook: '#',
+      google: '#',
+      instagram: '#',
+    }
+  },
+  {
+    name: 'Charles Hasman',
+    position: 'Founder & Director',
+    image: '/path/to/charles-hasman.jpg', // Replace with actual image URLs
+    description: 'Charles founded our company with a vision to create unforgettable events for every client.',
+    social: {
+      twitter: '#',
+      facebook: '#',
+      google: '#',
+      instagram: '#',
+    }
+  },
+  {
+    name: 'Anna Sydney',
+    position: 'Events Manager',
+    image: '/path/to/anna-sydney.jpg', // Replace with actual image URLs
+    description: 'Anna brings creativity and meticulous attention to detail to every event she manages.',
+    social: {
+      twitter: '#',
+      facebook: '#',
+      google: '#',
+      instagram: '#',
+    }
+  }
+];
 
-    return (
-        <div className="container mx-auto px-4 py-8">
-            <img src="" alt="" />
-            <h1 className="text-4xl font-bold mb-6 text-center text-blue-700">{eventDetails.title}</h1>
-            
-            <section className="mb-8">
-                <h2 className="text-3xl font-semibold mb-4 text-gray-800">Pricing</h2>
-                <p className="text-xl text-gray-600">{eventDetails.pricing}</p>
-            </section>
-            
-            <section className="mb-8">
-                <h2 className="text-3xl font-semibold mb-4 text-gray-800">Description</h2>
-                <p className="text-lg text-gray-700">{eventDetails.description}</p>
-            </section>
-            
-            <section className="mb-8">
-                <h2 className="text-3xl font-semibold mb-4 text-gray-800">What We Do</h2>
-                <ul className="list-disc pl-5 space-y-2 text-lg text-gray-700">
-                    {eventDetails.whatWeDo.map((item, index) => (
-                        <li key={index}>{item}</li>
-                    ))}
-                </ul>
-            </section>
-            
-            <section className="mb-8">
-                <h2 className="text-3xl font-semibold mb-4 text-gray-800">How to Book</h2>
-                <p className="text-lg text-gray-700 mb-4">{eventDetails.howToBook}</p>
-                <ol className="list-decimal pl-5 space-y-2 text-lg text-gray-700">
-                    {eventDetails.bookingSteps.map((step, index) => (
-                        <li key={index}>{step}</li>
-                    ))}
-                </ol>
-            </section>
-            
-            <section className="mb-8">
-                <h2 className="text-3xl font-semibold mb-4 text-gray-800">Packages</h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-                    {eventDetails.packages.map((pkg, index) => (
-                        <div key={index} className={` ${index!=1? 'bg-zinc-100':'bg-base-100' }  shadow-lg  border border-gray-200`}>
-                            <div className="card-body">
-                                <h3 className="text-2xl font-bold mb-2 text-blue-600">{pkg.name}</h3>
-                                <p className="text-xl font-semibold mb-4 text-gray-800">{pkg.price}</p>
-                                <ul className="list-disc pl-5 space-y-2 text-lg text-gray-700">
-                                    {pkg.features.map((feature, idx) => (
-                                        <li key={idx}>{feature}</li>
-                                    ))}
-                                </ul>
-                            </div>
-                        </div>
-                    ))}
+const skills = [
+  { name: 'Birthday Parties', progress: '70%' },
+  { name: 'Wedding Events', progress: '60%' },
+  { name: 'Corporate Events', progress: '50%' },
+  { name: 'Proposal Arrange', progress: '80%' },
+  { name: 'Social Seminars', progress: '90%' },
+];
+
+const whyChooseUsItems = [
+  { text: 'Expert Team', icon: () => <span className="material-icons">group</span>, color: 'text-blue-500' },
+  { text: 'Personalized Service', icon: () => <span className="material-icons">person</span>, color: 'text-green-500' },
+  { text: 'Affordable Pricing', icon: () => <span className="material-icons">attach_money</span>, color: 'text-yellow-500' },
+  { text: '24/7 Support', icon: () => <span className="material-icons">support</span>, color: 'text-red-500' },
+];
+
+const AboutUs = () => {
+  return (
+    <div className="container mx-auto p-4">
+      {/* Team Members Section */}
+      <h1 className="text-3xl font-bold text-center my-8">Meet Our Team</h1>
+      <p className="text-center mb-8">We make your events smart & impactful with personalized event management services.</p>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 mb-12">
+        {teamMembers.map((member, index) => (
+          <div key={index} className="flex items-center">
+            <img src={member.image} alt={member.name} className="w-32 h-32 rounded-full mx-4"/>
+            <div className="text-left">
+              <h2 className="text-xl font-bold">{member.name}</h2>
+              <p className="text-gray-600">{member.position}</p>
+              <p className="text-gray-700 mt-4">{member.description}</p>
+              <div className="flex mt-4 space-x-2">
+                <a href={member.social.twitter} className="text-blue-400"><i className="fab fa-twitter"></i></a>
+                <a href={member.social.facebook} className="text-blue-600"><i className="fab fa-facebook"></i></a>
+                <a href={member.social.google} className="text-red-500"><i className="fab fa-google"></i></a>
+                <a href={member.social.instagram} className="text-pink-600"><i className="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      {/* Skills Section */}
+      <div className="container mx-auto p-4">
+        <h1 className="text-3xl font-bold text-center my-8">
+          <span className="text-orange-600">Our</span> Skills
+        </h1>
+        <p className="text-center mb-8">
+          We excel in a wide range of event management services, ensuring your event is handled with the utmost care and expertise.
+        </p>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+          <div>
+            <ul className="space-y-4">
+              <li className="flex items-center">
+                <span className="text-orange-600 mr-2">✓</span>
+                Dedicated and professional team
+              </li>
+              <li className="flex items-center">
+                <span className="text-orange-600 mr-2">✓</span>
+                Personalized event planning
+              </li>
+              <li className="flex items-center">
+                <span className="text-orange-600 mr-2">✓</span>
+                Attention to detail in every event
+              </li>
+              <li className="flex items-center">
+                <span className="text-orange-600 mr-2">✓</span>
+                Comprehensive event management
+              </li>
+            </ul>
+          </div>
+          <div>
+            {skills.map((skill, index) => (
+              <div key={index} className="mb-4">
+                <div className="flex justify-between mb-1">
+                  <span>{skill.name}</span>
+                  <span>{skill.progress}</span>
                 </div>
-            </section>
-            
-            <section>
-                <h2 className="text-3xl font-semibold mb-4 text-gray-800">Additional Information</h2>
-                <p className="text-lg text-gray-700">{eventDetails.additionalInfo}</p>
-            </section>
+                <div className="w-full bg-gray-200 h-1.5 rounded">
+                  <div
+                    className="bg-orange-600 h-1.5 rounded"
+                    style={{ width: skill.progress }}
+                  ></div>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
-    );
+      </div>
+
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-12 py-20 px-8 md:px-24 bg-zinc-50">
+        {/* Why Choose Us Section */}
+        <section className="mb-12 col-span-2">
+          <h2 className="text-4xl font-bold text-gray-800 mb-6">Why Choose Us</h2>
+          <div className="w-full">
+            {whyChooseUsItems.map((item, index) => (
+              <div key={index} className="collapse collapse-plus bg-base-200 mb-4 rounded-lg shadow-md">
+                <input type="radio" name="why-choose-us-accordion" defaultChecked={index === 0} />
+                <div className="collapse-title text-xl font-medium flex items-center">
+                  <item.icon className={`mr-2 ${item.color}`} />
+                  {item.text}
+                </div>
+                <div className="collapse-content">
+                  <p className="text-gray-600 p-4">
+                    We excel in {item.text.toLowerCase()}, ensuring that every event is a success.
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <div>
+          {/* Our Goals Section */}
+          <section className="mb-12">
+            <h2 className="text-4xl font-bold text-gray-800 mb-6">Our Goals</h2>
+            <p className="text-gray-600 mx-auto">
+              Our goal is to revolutionize event management with exceptional services, making every event memorable and stress-free for our clients.
+            </p>
+          </section>
+
+          {/* Our Vision Section */}
+          <section className="mb-12">
+            <h2 className="text-4xl font-bold text-gray-800 mb-6">Our Vision</h2>
+            <div className="flex flex-col md:flex-row justify-center items-center space-y-6 md:space-y-0 md:space-x-12">
+              <div className="flex items-center space-x-4">
+                <p className="text-gray-600">
+                  Our vision is to become the leading event management company worldwide, recognized for creativity, innovation, and unmatched service.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  );
 };
 
-export default Services;
+export default AboutUs;
