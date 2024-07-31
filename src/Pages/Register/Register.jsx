@@ -1,10 +1,11 @@
 import { useContext, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../Providers/AuthProvider';
 
 const Register = () => {
   const { createUser } = useContext(AuthContext);
   const [error, setError] = useState('');
+  const navigate = useNavigate();
 
   const handleRegister = (e) => {
     e.preventDefault();
@@ -16,6 +17,7 @@ const Register = () => {
       .then(data => {
         console.log(data);
         setError(''); // Clear any previous errors
+        navigate('/home')
       })
       .catch(err => {
         console.log(err);
@@ -33,7 +35,7 @@ const Register = () => {
           </p>
         </div>
       </section>
-      <div className="py-20 bg-gray-100 py-12">
+      <div className="py-20 bg-gray-100">
         <div className="max-w-lg p-8 mx-auto bg-white shadow-lg rounded-lg">
           <div className="p-6">
             <h1 className="text-3xl font-bold mb-4">Register now!</h1>

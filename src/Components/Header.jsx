@@ -1,10 +1,16 @@
 import { NavLink } from "react-router-dom";
 import { MdOutlinePhoneCallback } from "react-icons/md";
 import { BsStopwatch } from "react-icons/bs";
-import { FaFacebook, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaLinkedin, FaRegUserCircle } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import { useContext } from "react";
+import { AuthContext } from "../Providers/AuthProvider";
 
 const Header = () => {
+    const {user, logOut} = useContext(AuthContext);
+    const handleLogout = () =>{
+        logOut();
+    }
     return (
         <div>
             <section className="bg-zinc-100 px-28 py-4 grid grid-cols-1 md:grid-cols-3 grid-4 mx-auto">
@@ -59,7 +65,13 @@ const Header = () => {
                         </ul>
                     </div>
                     <div className="navbar-end">
-                        <NavLink className='text-md font-semibold' to='/login'>Login</NavLink>
+                    <FaRegUserCircle className="me-2 text-xl" />
+                        {
+                            user?
+                            <button onClick={handleLogout} className="text-md font-semibold">Log Out</button>
+                            :
+                            <NavLink className='text-md font-semibold' to='/login'>Login</NavLink>
+                        }
                     </div>
                 </div>
             </section>
