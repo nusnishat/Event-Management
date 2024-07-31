@@ -69,6 +69,14 @@ const whyChooseUsItems = [
 const AboutUs = () => {
   return (
     <div className="container mx-auto p-4">
+        <section className='aboutUs-banner py-16 flex items-center justify-center '>
+            <div className="border-t">
+                <h1 className='font-semibold text-4xl mb-8'>Events</h1>
+                <p className='text-2xl font-semibold'>
+                    <span className='text-cyan-500'>Home</span> / Events
+                </p>
+            </div>
+        </section>
       {/* Team Members Section */}
       <h1 className="text-3xl font-bold text-center my-8">Meet Our Team</h1>
       <p className="text-center mb-8">We make your events smart & impactful with personalized event management services.</p>

@@ -78,7 +78,7 @@ const AboutUs = () => {
             </div>
         </section>
       {/* Team Members Section */}
-      <h1 className="text-3xl px-8 md:px-24 font-bold text-center mt-12 mb-4 "><span className='text-cyan-500'>DVENTS</span> Team Members</h1>
+      <h1 className="text-3xl px-8 md:px-24 font-bold text-center mt-20 mb-4 "><span className='text-cyan-500'>DVENTS</span> Team Members</h1>
       <p className="text-center px-8 md:px-24 text-xl mb-8">We make your events smart & impactful with personalized event management services.</p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 px-8 md:px-24  text-zinc-500 my-20">
         {teamMembers.map((member, index) => (
