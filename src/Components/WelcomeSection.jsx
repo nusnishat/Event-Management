@@ -17,7 +17,7 @@ const WelcomeSection = () => {
     return (
         <div className='pt-24 pb-16  mx-auto text-center px-8 md:px-24'>
             <img className='mx-auto mb-6' src="/src/images/Home/ui-decor-1.png" alt="" />
-            <h1 className='text-4xl mb-6 font-semibold'>Welcome To <span className='text-cyan-500'>DEVENTS</span></h1>
+            <h1 className='text-4xl mb-6 font-semibold'>Welcome To <span className='text-cyan-500'>DVENTS</span></h1>
             <p className='text-xl mb-24 max-w-4xl mx-auto'>From Wedding Functions to Birthday Parties or Corporate Events to Musical Functions,
             We offer full range of Events Management Services that scale to your needs & budget.</p>
             <div className='grid gap-8 grid-cols-1 md:grid-cols-3'>

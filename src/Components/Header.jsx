@@ -10,6 +10,7 @@ const Header = () => {
     const handleLogout = () => {
         logOut();
     };
+    
     return (
         <div className="relative z-20">
             <section className="bg-zinc-100 px-6 md:px-28 py-4 grid grid-cols-1 md:grid-cols-3 mx-auto">
@@ -67,9 +68,12 @@ const Header = () => {
                         </ul>
                     </div>
                     <div className="navbar-end">
-                        <FaRegUserCircle className="me-2 text-xl" />
+                        <FaRegUserCircle className="me-2 text-xl text-cyan-500 font-bold" />
                         {user ? (
-                            <button onClick={handleLogout} className="text-md font-semibold">Log Out</button>
+                            <>
+                                <span className="me-6 font-bold text-cyan-500">{user.email}</span>
+                                <button onClick={handleLogout} className="text-md font-semibold">Log Out</button>
+                            </>
                         ) : (
                             <NavLink className='text-md font-semibold' to='/login'>Login</NavLink>
                         )}

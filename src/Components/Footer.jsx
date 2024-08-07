@@ -56,7 +56,7 @@ const Footer = () => {
                                 <MdPhone className="text-xl mr-2" /> <span>0187845221</span>
                             </li>
                             <li className="flex items-center mb-2">
-                                <MdEmail className="text-xl mr-2" /> <span>info@devents.com</span>
+                                <MdEmail className="text-xl mr-2" /> <span>info@DVENTS.com</span>
                             </li>
                             <li className="flex items-center">
                                 <MdLocationOn className="text-xl mr-2" /> <span>123 Event Street, City, Country</span>
