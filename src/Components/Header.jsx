@@ -67,11 +67,10 @@ const Header = () => {
                             <li><NavLink className='text-md font-semibold' to='/aboutUs'>About Us</NavLink></li>
                         </ul>
                     </div>
-                    <div className="navbar-end">
+                    <div className="navbar-end me-4">
                         <FaRegUserCircle className="me-2 text-xl text-cyan-500 font-bold" />
                         {user ? (
                             <>
-                                <span className="me-6 font-bold text-cyan-500">{user.email}</span>
                                 <button onClick={handleLogout} className="text-md font-semibold">Log Out</button>
                             </>
                         ) : (

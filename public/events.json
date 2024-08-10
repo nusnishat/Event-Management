@@ -7,7 +7,7 @@
       "location": "Crystal Ballroom, New York",
       "category": "Wedding",
       "attendees": 200,
-      "image": "https://demo.ovatheme.com/dvents/wp-content/uploads/2017/06/262x390_3.jpg"
+      "image": "https://images.pexels.com/photos/3014860/pexels-photo-3014860.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "id": 2,
@@ -17,7 +17,7 @@
       "location": "Business Convention Center, Chicago",
       "category": "Conference",
       "attendees": 500,
-      "image": "https://demo.ovatheme.com/dvents/wp-content/uploads/2017/06/262x390_3.jpg"
+      "image": "https://img.freepik.com/free-photo/business-executives-participating-business-meeting_107420-63846.jpg?t=st=1723296974~exp=1723300574~hmac=c1677d1b3f651a27194d7a7f873316402b929fe32f779a0faa72b1d2ed4c98ef&w=360"
     },
     {
       "id": 3,
@@ -37,7 +37,7 @@
       "location": "Luxury Hotel, Miami",
       "category": "Charity",
       "attendees": 300,
-      "image": "https://demo.ovatheme.com/dvents/wp-content/uploads/2017/06/262x390_3.jpg"
+      "image": "https://img.freepik.com/premium-photo/quotcherished-moments-joy-best-friendsquot_1198094-22822.jpg?semt=ais_hybrid"
     },
     {
       "id": 5,
@@ -47,7 +47,7 @@
       "location": "Open Grounds, Austin",
       "category": "Festival",
       "attendees": 1000,
-      "image": "https://demo.ovatheme.com/dvents/wp-content/uploads/2017/06/262x390_3.jpg"
+      "image": "https://img.freepik.com/free-photo/happy-female-dj-entertaining-big-crowd_23-2148325427.jpg?semt=ais_hybrid"
     },
     {
       "id": 6,
@@ -57,7 +57,7 @@
       "location": "Art Gallery, San Francisco",
       "category": "Exhibition",
       "attendees": 200,
-      "image": "https://demo.ovatheme.com/dvents/wp-content/uploads/2017/06/262x390_3.jpg"
+      "image": "https://images.pexels.com/photos/2372979/pexels-photo-2372979.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
       "id": 7,
@@ -67,18 +67,9 @@
       "location": "Culinary School, Seattle",
       "category": "Workshop",
       "attendees": 50,
-      "image": "https://demo.ovatheme.com/dvents/wp-content/uploads/2017/06/262x390_3.jpg"
+      "image": "https://images.pexels.com/photos/8477297/pexels-photo-8477297.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
-    {
-      "id": 8,
-      "name": "Film Screening",
-      "description": "A special screening of an award-winning film.",
-      "date": "2022-01-15",
-      "location": "Cinema Hall, Los Angeles",
-      "category": "Film Screening",
-      "attendees": 150,
-      "image": "https://demo.ovatheme.com/dvents/wp-content/uploads/2017/06/262x390_3.jpg"
-    },
+  
     {
       "id": 9,
       "name": "Outdoor Adventure",
@@ -87,7 +78,7 @@
       "location": "Mountain Trails, Denver",
       "category": "Adventure",
       "attendees": 80,
-      "image": "https://demo.ovatheme.com/dvents/wp-content/uploads/2017/06/262x390_3.jpg"
+      "image": "https://images.pexels.com/photos/8028952/pexels-photo-8028952.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "id": 10,
@@ -97,7 +88,7 @@
       "location": "Bookstore, Boston",
       "category": "Book Launch",
       "attendees": 100,
-      "image": "https://demo.ovatheme.com/dvents/wp-content/uploads/2017/06/262x390_3.jpg"
+      "image": "https://images.pexels.com/photos/2027695/pexels-photo-2027695.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     }
   ]
   

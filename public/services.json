@@ -15,7 +15,7 @@
         "bookingSteps": [
             "Contact us via phone or email to discuss your event details.",
             "Choose your preferred package and customize it to fit your needs.",
-            "Sign the contract and make the initial deposit.",
+            "Contact us via E-mail.",
             "Our team will work with you on the final arrangements.",
             "Enjoy your birthday party!"
         ],
@@ -56,7 +56,7 @@
                 ]
             }
         ],
-        "image": "https://i.postimg.cc/ZqjdRf0n/birthday.jpg"
+        "image": "https://images.pexels.com/photos/587741/pexels-photo-587741.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
         "id":2,
@@ -75,7 +75,7 @@
         "bookingSteps": [
             "Contact us to schedule a consultation.",
             "Choose from our wedding packages or create a custom package.",
-            "Finalize the details and sign the contract.",
+            "Finalize the details and Contact us via E-mail.",
             "Pay the deposit to secure your date.",
             "Enjoy your dream wedding day!"
         ],
@@ -115,7 +115,7 @@
                 ]
             }
         ],
-        "image": "https://demo.ovatheme.com/dvents/wp-content/uploads/2017/06/262x390_3.jpg"
+        "image": "https://images.pexels.com/photos/169198/pexels-photo-169198.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
         "id":3,
@@ -134,7 +134,7 @@
         "bookingSteps": [
             "Reach out to discuss your event requirements.",
             "Choose a package or customize your own.",
-            "Sign the agreement and pay the deposit.",
+            "Contact us via E-mail.",
             "Coordinate with our team for event planning.",
             "Host your successful conference!"
         ],
@@ -173,7 +173,7 @@
                 ]
             }
         ],
-        "image": "https://i.postimg.cc/zBBRRnRj/conference.jpg"
+        "image": "https://images.pexels.com/photos/3321797/pexels-photo-3321797.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
         "id":4,
@@ -192,7 +192,7 @@
         "bookingSteps": [
             "Contact us to discuss your concert needs.",
             "Select a package or create a custom plan.",
-            "Sign the agreement and make a deposit.",
+            "Contact us via E-mail.",
             "Coordinate with our team for detailed planning.",
             "Enjoy a successful concert event!"
         ],
@@ -231,6 +231,6 @@
                 ]
             }
         ],
-        "image": "https://i.postimg.cc/C1QnCzGV/concert.jpg"
+        "image": "https://images.pexels.com/photos/625644/pexels-photo-625644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     }
 ]

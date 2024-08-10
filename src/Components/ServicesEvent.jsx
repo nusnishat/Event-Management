@@ -10,17 +10,17 @@ const SercicesEvent = () => {
         {
             id:2,
             name:"Wedding Ceremony",
-            url: 'https://i.ibb.co/RTzpMGk/wedding.jpg'
+            url: 'https://images.pexels.com/photos/169198/pexels-photo-169198.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
         },
         {
             id:3,
             name:"Corporate Seminar",
-            url: 'https://i.ibb.co/VMG8bkM/conference.jpg'
+            url: 'https://images.pexels.com/photos/3321797/pexels-photo-3321797.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
         },
         {
             id:4,
             name:"Musical Concert",
-            url: 'https://i.ibb.co/FgCp3WY/progress-banner.jpg'
+            url: 'https://images.pexels.com/photos/625644/pexels-photo-625644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
         }
     ]
     return (
@@ -29,7 +29,7 @@ const SercicesEvent = () => {
             <h1 className='text-4xl mb-6 font-semibold'> <span className='text-cyan-500'>DVENTS</span> Services</h1>
             <p className='text-xl mb-8 max-w-4xl mx-auto'>We make your events smart & impactful by personalised event management services</p>
             <p className='text-zinc-500'>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud exercitation ex ea consequat duis aute irure dolor in reprehenderit in voluptate labore et dolore magna aliqua cillum dolore</p>
-            <div className='grid grid-cols-1 gap-4  md:grid-cols-4 mt-20'>
+            <div className='grid grid-cols-1 gap-y-8 gap-x-4   md:grid-cols-4 mt-20'>
             {services.map((service, index) => (
                 <div key={index} className="card bg-base-100 shadow-xl">
                 <figure>
